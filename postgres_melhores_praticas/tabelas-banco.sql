@@ -44,7 +44,7 @@ CREATE TABLE IF NOT EXISTS tipo_transacao (
     data_criacao TIMESTAMP NOT NULL DEFAULT CURRENT_TIMESTAMP
 );
 
-CREATE TABLE IF NOT EXISTS cliente_transacao (
+CREATE TABLE IF NOT EXISTS cliente_transacoes (
     id BIGSERIAL PRIMARY KEY,
     banco_numero INTEGER NOT NULL,
     agencia_numero INTEGER NOT NULL,
